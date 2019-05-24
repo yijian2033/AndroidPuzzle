@@ -14,8 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/NoActionBarTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".PuzzlePickerActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.PuzzleViewActivity"></activity>
+        <activity android:name=".activity.PuzzlePickerActivity" />
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
